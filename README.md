@@ -30,4 +30,4 @@ int main() {
 <img src="image.png" alt="Output Example, c: -0.4 + 0.6i" width="500" />
 
 ## Discord
-[Discord invite link](discord.gg/mXtg8NXv8q)
+[Discord invite link](https://discord.gg/mXtg8NXv8q)
