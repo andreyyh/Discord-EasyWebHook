@@ -28,7 +28,7 @@ auto initHTTP() -> bool {
 auto SendEmbedHK(std::string title = "", std::string desc = "", std::string text = "", std::string botname = "blackbot", std::string color = "65535") -> void {
     hRequest = WinHttpOpenRequest(hConnect,
         L"POST",
-        L"/api/webhooks/1279569935630078034/Gw7lEtnPDSqutJ5-lYk0T7xTADrmBBToWlfZxgZi_3q334lEdlOGDtno0Xn8BX3DmtdT", // https://discord.com/api/webhooks/1279569935630078034/Gw7lEtnPDSqutJ5-lYk0T7xTADrmBBToWlfZxgZi_3q334lEdlOGDtno0Xn8BX3DmtdT
+        L"/api/webhooks/YOUR-WEBHOOK", 
         NULL,
         WINHTTP_NO_REFERER,
         WINHTTP_DEFAULT_ACCEPT_TYPES,
@@ -51,7 +51,7 @@ auto SendEmbedHK(std::string title = "", std::string desc = "", std::string text
 auto SendMessageHK(std::string text, std::string botname = "blackbot") -> void {
     hRequest = WinHttpOpenRequest(hConnect,
         L"POST",
-        L"/api/webhooks/1279569935630078034/Gw7lEtnPDSqutJ5-lYk0T7xTADrmBBToWlfZxgZi_3q334lEdlOGDtno0Xn8BX3DmtdT", // https://discord.com/api/webhooks/1279569935630078034/Gw7lEtnPDSqutJ5-lYk0T7xTADrmBBToWlfZxgZi_3q334lEdlOGDtno0Xn8BX3DmtdT
+        L"/api/webhooks/YOUR-WEBHOOK", 
         NULL,
         WINHTTP_NO_REFERER,
         WINHTTP_DEFAULT_ACCEPT_TYPES,
